@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delanodebronni.debronni.dms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".viewContact" />
+        <activity android:name=".addContact" />
+        <activity android:name=".editContact" />
+        <activity
+            android:name=".contacts"
+            android:label="Contacts" />
+        <activity
+            android:name=".DMS"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_search"
+            android:label="Search" />
+        <activity android:name=".About" />
+        <activity android:name=".viewFavs" />
+        <activity
+            android:name=".favourites"
+            android:label="Favourites" />
+        <activity
+            android:name=".database"
+            android:label="Database Information" />
+
+    </application>
+
+</manifest>

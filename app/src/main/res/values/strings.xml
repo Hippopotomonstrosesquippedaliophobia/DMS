@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DMS</string>
+    <string name="title_activity_tabbed_contacts">tabbedContacts</string>
+    <string name="action_About">About</string>
+    <string name="action_Search">Search</string>
+    <string name="action_DelAll">Search</string>
+    <string name="action_Count">Search</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabbedcontact">DMS</string>
+    <string name="lblname">Full Name</string>
+    <string name="lblemail">Email Address</string>
+    <string name="lblhnum">Home Number</string>
+    <string name="lblcnum">Cell Number</string>
+    <string name="lbltype">Contact Type</string>
+
+    <string name="title_activity_splashscreen">splashscreen</string>
+    <string name="dummy_content">DMS</string>
+</resources>
